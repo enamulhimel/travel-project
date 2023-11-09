@@ -1,8 +1,24 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './SearchBar.css';
 import { Col, Form, FormGroup } from 'reactstrap';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const SearchBar = () => {
+  const locationRef = useRef('');
+  const distanceRef = useRef(0);
+  const maxGroupSizeRef = useRef(0);
+
+  const searchHandler = () => {
+    const location = locationRef.current.value;
+    const distance = distanceRef.current.value;
+    const maxGroupSize = maxGroupSizeRef.current.value;
+
+    if (location === '' || distance === '' || maxGroupSize === '') {
+      return alert('All field are required!');
+    }
+  };
+
   return (
     <Col lg="12">
       <div className="search__bar">
@@ -13,7 +29,11 @@ const SearchBar = () => {
             </span>
             <div>
               <h6>Location</h6>
-              <input type="text" placeholder="Where you want to go" />
+              <input
+                type="text"
+                placeholder="Where you want to go"
+                ref={locationRef}
+              />
             </div>
           </FormGroup>
           <FormGroup className="d-flex gap-3 form__group form__group-fast">
@@ -22,7 +42,11 @@ const SearchBar = () => {
             </span>
             <div>
               <h6>Distance</h6>
-              <input type="number" placeholder="Distance k/m" />
+              <input
+                type="number"
+                placeholder="Distance k/m"
+                ref={distanceRef}
+              />
             </div>
           </FormGroup>
           <FormGroup className="d-flex gap-3 form__group form__group-last">
@@ -31,10 +55,10 @@ const SearchBar = () => {
             </span>
             <div>
               <h6>Max People</h6>
-              <input type="number" placeholder="0" />
+              <input type="number" placeholder="0" ref={maxGroupSizeRef} />
             </div>
           </FormGroup>
-          <span className="search-icon" type="submit">
+          <span className="search-icon" type="submit" onClick={searchHandler}>
             <i class="ri-search-line"></i>
           </span>
         </Form>
