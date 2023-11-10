@@ -12,9 +12,10 @@ const tours = [
     title: 'Westminister Bridge',
     city: 'London',
     distance: 300,
+    address: 'England',
     price: 99,
     maxGroupSize: 10,
-    desc: 'this is the description',
+    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt harum non nobis placeat quibusdam deleniti a distinctio vitae. Doloribus minus enim libero soluta mollitia dolore porro! Sequi eos reprehenderit quae.',
     reviews: [
       {
         name: 'jhon doe',
@@ -34,9 +35,10 @@ const tours = [
     title: 'Bali, Indonesia',
     city: 'Indonesia',
     distance: 400,
+    address: 'Indonesia',
     price: 99,
     maxGroupSize: 8,
-    desc: 'this is the description',
+    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt harum non nobis placeat quibusdam deleniti a distinctio vitae. Doloribus minus enim libero soluta mollitia dolore porro! Sequi eos reprehenderit quae.',
     reviews: [
       {
         name: 'jhon doe',
@@ -52,9 +54,10 @@ const tours = [
     title: 'Snowy Mountains, Thailand',
     city: 'Thailand',
     distance: 500,
+    address: 'Thailand',
     price: 99,
     maxGroupSize: 8,
-    desc: 'this is the description',
+    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt harum non nobis placeat quibusdam deleniti a distinctio vitae. Doloribus minus enim libero soluta mollitia dolore porro! Sequi eos reprehenderit quae.',
     reviews: [
       {
         name: 'jhon doe',
@@ -69,10 +72,11 @@ const tours = [
     id: '04',
     title: 'Beautiful Sunrise, Thailand',
     city: 'Thailand',
+    address: 'Thailand',
     distance: 500,
     price: 99,
     maxGroupSize: 8,
-    desc: 'this is the description',
+    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt harum non nobis placeat quibusdam deleniti a distinctio vitae. Doloribus minus enim libero soluta mollitia dolore porro! Sequi eos reprehenderit quae.',
     reviews: [
       {
         name: 'jhon doe',
@@ -89,8 +93,9 @@ const tours = [
     city: 'Indonesia',
     distance: 500,
     price: 99,
+    address: 'Indoesia',
     maxGroupSize: 8,
-    desc: 'this is the description',
+    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt harum non nobis placeat quibusdam deleniti a distinctio vitae. Doloribus minus enim libero soluta mollitia dolore porro! Sequi eos reprehenderit quae.',
     reviews: [
       {
         name: 'jhon doe',
@@ -106,9 +111,10 @@ const tours = [
     title: 'Cherry Blossoms Spring',
     city: 'Japan',
     distance: 500,
+    address: 'Japan',
     price: 99,
     maxGroupSize: 8,
-    desc: 'this is the description',
+    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt harum non nobis placeat quibusdam deleniti a distinctio vitae. Doloribus minus enim libero soluta mollitia dolore porro! Sequi eos reprehenderit quae.',
     reviews: [
       {
         name: 'jhon doe',
@@ -124,9 +130,10 @@ const tours = [
     title: 'Holmen Lofoten',
     city: 'France',
     distance: 500,
+    address: 'France',
     price: 99,
     maxGroupSize: 8,
-    desc: 'this is the description',
+    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt harum non nobis placeat quibusdam deleniti a distinctio vitae. Doloribus minus enim libero soluta mollitia dolore porro! Sequi eos reprehenderit quae.',
     reviews: [],
     avgRating: 4.5,
     photo: tourImg07,
@@ -137,9 +144,10 @@ const tours = [
     title: 'Snowy Mountains, Thailand',
     city: 'Thailand',
     distance: 500,
+    address: 'Thailand',
     price: 99,
     maxGroupSize: 8,
-    desc: 'this is the description',
+    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt harum non nobis placeat quibusdam deleniti a distinctio vitae. Doloribus minus enim libero soluta mollitia dolore porro! Sequi eos reprehenderit quae.',
     reviews: [],
     avgRating: 4.5,
     photo: tourImg03,
